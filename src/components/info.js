@@ -26,8 +26,8 @@ const InfoComponent = () => {
             <div className="flex items-start space-x-4">
               <div className="text-2xl font-bold">3</div>
               <div>
-                <h3 className="text-xl font-bold">GO TO JUSTSWAP</h3>
-                <p>Connect to JustSwap. Go to justswap.io in your browser inside your TronLink app. Connect your wallet. Paste the $LANDWOLF token address into JustSwap and confirm the swap. When TronLink prompts you for a wallet signature, sign it.</p>
+                <h3 className="text-xl font-bold">GO TO SunSwap</h3>
+                <p>Connect to SunSwap. Go to SunSwap.io in your browser inside your TronLink app. Connect your wallet. Paste the $LANDWOLF token address into SunSwap and confirm the swap. When TronLink prompts you for a wallet signature, sign it.</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">

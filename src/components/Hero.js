@@ -30,7 +30,7 @@ const HeroSection = () => {
                         </a>
                     </div>
                     <div className="flex justify-center space-x-4 md:space-x-8 pt-4">
-                        <a href="https://dexscreener.com/solana/BZG7ZWQkvEZpZiE64Hz2weyHF8pfxXHHtLwU96Avpump" target="_blank" rel="noopener noreferrer">
+                        <a href="#" target="_blank" rel="noopener noreferrer">
                             <Image src="/dexscreener.png" alt="Dexscreener" width={40} height={40} />
                         </a>
                         <a href="https://x.com/LANDWOLF_TRON" target="_blank" rel="noopener noreferrer">
