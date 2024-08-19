@@ -22,15 +22,17 @@ const HeroSection = () => {
                         height={600} // Adjust height as needed
                         className="mt-8"
                     />
-                    <div className="mt-4 p-2 flex flex-col md:flex-row items-center justify-center font-hanaleiFill  text-black rounded text-sm md:text-2xl font-bold w-full max-w-3xl">
+                    <div className="mt-4 p-2 flex flex-col md:flex-row items-center justify-center font-hanaleiFill text-black rounded text-sm md:text-2xl font-bold w-full max-w-3xl">
                         <span className="text-center md:text-left">CA: </span>
                     </div>
                     <div className="flex justify-center p-8">
-                        <button
-                            className="px-6 py-3 font-hanaleiFill text-white bg-black rounded font-bold hover:bg-gray-700 transition-colors duration-300"
-                        >
-                            Buy now
-                        </button>
+                        <a href="https://t.me/Tronsnipebot?start=ref_GzyNtqPdX2" target="_blank" rel="noopener noreferrer">
+                            <button
+                                className="px-6 py-3 font-hanaleiFill text-white bg-black rounded font-bold hover:bg-gray-700 transition-colors duration-300"
+                            >
+                                Buy now
+                            </button>
+                        </a>
                     </div>
                     <div className="flex justify-center bg-[#cb22f6] space-x-4 md:space-x-8 pt-4">
                         <a href="https://dexscreener.com/solana/BZG7ZWQkvEZpZiE64Hz2weyHF8pfxXHHtLwU96Avpump" target="_blank" rel="noopener noreferrer">
