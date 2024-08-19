@@ -10,16 +10,16 @@ const ImageRowWithSocials = () => {
                 <Marquee gradient={true} gradientColor="purple" className="grid  grid-cols-1 md:grid-cols-3 gap-8">
                     {/* First Image and Socials */}
                     <div className="text-center">
-                        <Image src="/C1.jpeg" alt="Image 1" width={250} height={250} className="m-4" />
+                        <Image src="/4.jpg" alt="Image 1" width={250} height={250} className="m-4" />
                     </div>
 
                     <div className="text-center animate-pulse">
-                        <Image src="/C2.jpeg" alt="Image 2" width={250} height={250} className="m-4" />
+                        <Image src="/5.jpg" alt="Image 2" width={250} height={250} className="m-4" />
 
                     </div>
                     {/* Second Image and Socials */}
                     <div className="text-center animate-pulse">
-                        <Image src="/C3.jpeg" alt="Image 2" width={250} height={250} className="m-4" />
+                        <Image src="/3.jpg" alt="Image 2" width={250} height={250} className="m-4" />
                     </div>
                 </Marquee>
             </div>
