@@ -21,7 +21,7 @@ const HeroSection = () => {
                         <span className="text-center md:text-left">CA: </span>
                     </div>
                     <div className="flex justify-center p-8">
-                        <a href="https://t.me/Tronsnipebot?start=ref_GzyNtqPdX2" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.dextools.io/app/en/tron/pair-explorer/TXVsDoTtgfTN5nuRsa8yhx9eQS8xrtQLED?t=1724086856231" target="_blank" rel="noopener noreferrer">
                             <button
                                 className="px-6 py-3 font-hanaleiFill text-white bg-black rounded font-bold hover:bg-gray-700 transition-colors duration-300"
                             >
@@ -30,7 +30,7 @@ const HeroSection = () => {
                         </a>
                     </div>
                     <div className="flex justify-center space-x-4 md:space-x-8 pt-4">
-                        <a href="#" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.dextools.io/app/en/tron/pair-explorer/TXVsDoTtgfTN5nuRsa8yhx9eQS8xrtQLED?t=1724086856231" target="_blank" rel="noopener noreferrer">
                             <Image src="/dexscreener.png" alt="Dexscreener" width={40} height={40} />
                         </a>
                         <a href="https://x.com/LANDWOLF_TRON" target="_blank" rel="noopener noreferrer">
