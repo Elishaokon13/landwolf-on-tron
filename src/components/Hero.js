@@ -38,10 +38,10 @@ const HeroSection = () => {
                         <a href="https://dexscreener.com/solana/BZG7ZWQkvEZpZiE64Hz2weyHF8pfxXHHtLwU96Avpump" target="_blank" rel="noopener noreferrer">
                             <Image src="/dexscreener.png" alt="Dexscreener" width={40} height={40} />
                         </a>
-                        <a href="https://x.com/nas_coin" target="_blank" rel="noopener noreferrer">
+                        <a href="https://x.com/LANDWOLF_TRON" target="_blank" rel="noopener noreferrer">
                             <Image src="/twitter.png" alt="Twitter" width={40} height={40} />
                         </a>
-                        <a href="https://t.me/NAS_nation_Portal" target="_blank" rel="noopener noreferrer">
+                        <a href="https://t.me/LANDWOLF_TRON" target="_blank" rel="noopener noreferrer">
                             <Image src="/tg.png" alt="Telegram" width={40} height={40} />
                         </a>
                     </div>
