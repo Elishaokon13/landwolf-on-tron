@@ -1,40 +1,53 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import Marquee from "react-fast-marquee";
 
-const ImageCard = ({ src, alt }) => (
-  <div className="shadow-lg overflow-hidden">
-    <Image src={src} alt={alt} width={300} height={400} className="object-cover w-full h-full" />
-  </div>
-);
-
-const Tokenomix = () => {
+export default function Sponsors() {
   return (
-    <>
-      <div className="bg-cover bg-center bg-[#EDAB4C] bg-no-repeat min-h-screen" style={{ backgroundImage: "url('/bg.png')" }}>
-        <div className="flex flex-col items-center justify-center min-h-screen p-4">
-          <div className="text-center mb-8 text-white">
-            <h1 className="text-4xl font-permanentMarker font-bold mb-4">Meet the Blaqs</h1>
-            <p className="text-lg font-hanaleiFill">the first Blaq: the legendary NastyBlaq!<br /><br /> He&apos;s a trailblazer and comedian known for his hilarious social media skits that have captured the hearts of millions.<br /><br /> He&apos;s the first piece of the BLAQ puzzle and his endorsement is about to send the token soaring!</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-6xl w-[720px]">
-            <ImageCard
-              src="/R1.png"
-              alt="Team Member 1"
+    <div className=" font-hanaleiFill py-4 sm:py-2">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col gap-4" >
+        {/* <WordPullUp
+          className="text-2xl font-bold tracking-[-0.02em] text-white dark:text-black md:text-6xl md:leading-[5rem]"
+          words="Our Amazing Partners"
+        /> */}
+        <h2 className="text-center font-bricolage text-4xl md:text-6xl font-semibold leading-8 text-white">
+          Coming soon on:
+        </h2>
+        <div className="w-full mt-[20px]">
+          <Marquee  >
+            <div className="flex space-x-[40px]" >
+            <Image
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src="/mexc.png"
+              alt="Mexc"
+              width={158}
+              height={48}
             />
-            <ImageCard
-              src="/R2.png"
-              alt="Team Member 2"
+            <Image
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src="/gate.png"
+              alt="Reform"
+              width={158}
+              height={48}
             />
-            <ImageCard
-              src="/R3.png"
-              alt="Team Member 3"
+            <Image
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src="/poloniex.png"
+              alt="Poloniex"
+              width={158}
+              height={48}
             />
-          </div>
+            <Image
+              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+              src="/okx.svg"
+              alt="OKX"
+              width={158}
+              height={48}
+            />
+            
+            </div>
+          </Marquee>
         </div>
       </div>
-    </>
+    </div>
   );
-};
-
-export default Tokenomix;
+}
