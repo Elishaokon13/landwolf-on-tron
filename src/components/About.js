@@ -18,28 +18,22 @@ const AboutSection = () => {
 
   return (
     <>
-      <div className="bg-cover bg-center bg-[#EDAB4C] bg-no-repeat min-h-screen" style={{ backgroundImage: "url('/bg.png')" }}>
-        <div className="relative min-h-screen w-full text-black p-8">
+      <div className="bg-cover bg-center bg-[#cb22f6] bg-no-repeat min-h-screen" style={{ backgroundImage: "url('/bg.png')" }}>
+        <div className="relative min-h-screen w-full text-purple-950 p-8">
           <div className="relative text-center">
-            <h1 className="text-3xl sm:text-5xl font-permanentMarker font-bold mb-8">Join the Fun</h1>
+            <h1 className="text-3xl sm:text-5xl font-permanentMarker mt-10 font-bold mb-8">What is $LANDWOLF?</h1>
             <p className="max-w-4xl font-hanaleiFill mx-auto text-lg leading-relaxed mb-8">
-              Avatar never made us money, but Nas Nation will.
-
-              This is where our hard work pays off.
-
-              We're not just building a community; we're creating real financial success.
-
-              Join us in Nas Nation and let's turn our efforts into serious profits.
+            Tron enthusiasts are embracing Landwolf, moving away from the frog meme trend. Since its inception, Landwolf has become a beloved icon within the crypto community, known for his laid-back and wise demeanor. Created by Matt Furie, this character finally makes its debut on the Tron blockchain. Join our vibrant community on Telegram and enjoy the ride with Landwolf!
 
               <br/>Together, we're unstoppable
             </p>
 
-            <h2 className="text-2xl sm:text-4xl font-permanentMarker pt-10 font-bold mb-4">The Nas Nation</h2>
+            {/* <h2 className="text-2xl sm:text-4xl font-permanentMarker pt-10 font-bold mb-4">The Nas Nation</h2>
             <p className="max-w-4xl font-hanaleiFill mx-auto text-lg leading-relaxed mb-8">
               One Nation, Two Kings
-            </p>
+            </p> */}
 
-            <div className="mb-8">
+            {/* <div className="mb-8">
               <button
                 onClick={() => {
                   setCounter(initialCount + (2 ** 4) * power);
@@ -55,7 +49,7 @@ const AboutSection = () => {
               <div className="text-3xl sm:text-4xl rounded-2xl w-64 bg-white text-black items-center justify-center text-center font-permanentMarker font-thin">
                 {counter} Nasites
               </div>
-            </div>
+            </div> */}
             <ImageRowWithSocials />
           </div>
         </div>

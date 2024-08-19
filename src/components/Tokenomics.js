@@ -16,37 +16,37 @@ const TokenomicsSection = () => {
 
     return (
         <>
-            <div className="bg-cover bg-center animate-pulse bg-[#EDAB4C] bg-no-repeat min-h-screen" style={{ backgroundImage: "url('/bg.png')" }}>
+            <div className="bg-cover bg-center bg-[#cb22f6] bg-no-repeat min-h-screen" style={{ backgroundImage: "url('/bg.png')" }}>
                 <div className="relative flex font-permanentMarker  flex-col items-center justify-center min-h-screen  text-white p-8">
                     <h1 className="text-3xl md:text-5xl font-bold mb-12 md:mb-28 font-permanentMarker">Tokenomics</h1>
 
-                    <div className="relative flex items-center animate-bounce justify-center w-full mb-8">
+                    <div className="relative flex items-center animate-pulse justify-center w-full mb-8">
                         <div className="relative w-48 h-48 md:w-96 md:h-96 bg-gray-800 rounded-lg shadow-lg">
-                            <Image src="/R1.png" alt="Center Image" layout="fill" objectFit="cover" className="rounded-lg" />
+                            <Image src="/C1.jpeg" alt="Center Image" layout="fill" objectFit="cover" className="rounded-lg" />
 
                             {/* Top Left Card */}
-                            <div className="absolute top-0 left-0 bg-[#C45B14] transform -translate-y-1/2 -translate-x-1/2">
+                            <div className="absolute top-0 left-0 bg-[#cb22f6] transform -translate-y-1/2 -translate-x-1/2">
                                 <StatsCard figure="1 Billion" description="Supply" />
                             </div>
 
                             {/* Top Right Card */}
-                            <div className="absolute top-0 right-0 bg-[#C45B14] transform -translate-y-1/2 translate-x-1/2">
+                            <div className="absolute top-0 right-0 bg-[#cb22f6] transform -translate-y-1/2 translate-x-1/2">
                                 <StatsCard figure="0%" description="Tax" />
                             </div>
 
                             {/* Bottom Left Card */}
-                            <div className="absolute bottom-0 bg-[#C45B14] left-0 transform translate-y-1/2 -translate-x-1/2">
+                            <div className="absolute bottom-0 bg-[#cb22f6] left-0 transform translate-y-1/2 -translate-x-1/2">
                                 <StatsCard figure="100%" description="LP Burned" />
                             </div>
 
                             {/* Bottom Right Card */}
-                            <div className="absolute bottom-0 bg-[#C45B14] right-0 transform translate-y-1/2 translate-x-1/2">
+                            <div className="absolute bottom-0 bg-[#cb22f6] right-0 transform translate-y-1/2 translate-x-1/2">
                                 <StatsCard figure="Ownership" description="Renounced" />
                             </div>
                         </div>
                     </div>
 
-                    <div className="mt-10 p-2 flex flex-col md:flex-row items-center justify-between font-hanaleiFill bg-[#C45B14] text-black rounded text-sm md:text-2xl font-bold w-full max-w-3xl">
+                    <div className="mt-10 p-2 flex flex-col md:flex-row items-center justify-between font-hanaleiFill bg-[#cb22f6] text-black rounded text-sm md:text-2xl font-bold w-full max-w-3xl">
                         <span className="text-center md:text-left">CA: </span>
                         {/* <button
                             onClick={handleCopy}
