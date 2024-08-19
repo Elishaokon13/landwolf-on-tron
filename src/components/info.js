@@ -41,7 +41,7 @@ const InfoComponent = () => {
         </div>
         <div className="flex items-center justify-center">
           <img
-            src="/pfp.jpg"
+            src="/dj.jpeg"
             alt="Landwolf Info Graphic"
             className="w-full h-full object-cover"
           />
