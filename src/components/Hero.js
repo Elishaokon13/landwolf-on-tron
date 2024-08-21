@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Tokenomix from "@/components/Tokenomic";
+import { useSpring, animated } from 'react-spring';
 
 const HeroSection = () => {
     const handleCopy = () => {
@@ -8,11 +9,17 @@ const HeroSection = () => {
         alert('Text copied to clipboard!');
     };
 
+    const fadeIn = useSpring({
+        from: { opacity: 0, transform: 'translateY(50px)' },
+        to: { opacity: 1, transform: 'translateY(0)' },
+        config: { duration: 1000 }
+    });
+
     return (
         <>
             <div className="bg-cover bg-center bg-[#cb22f6] bg-no-repeat min-h-screen" style={{ backgroundImage: "url('/pfp.jpg')" }}>
                 {/* Overlay with Text */}
-                <div className="relative z-10 flex flex-col items-center justify-center h-screen bg-[#cb22f6] bg-opacity-50 p-4 md:p-8">
+                <animated.div style={fadeIn} className="relative z-10 flex flex-col items-center justify-center h-screen bg-[#cb22f6] bg-opacity-50 p-4 md:p-8">
                     <h1 className="text-[60px] sm:text-[120px] md:text-[100px] lg:text-[180px] text-shadow text-white font-permanentMarker font-extralight text-center">
                         $LANDWOLF
                     </h1>
@@ -40,7 +47,7 @@ const HeroSection = () => {
                             <Image src="/tg.png" alt="Telegram" width={40} height={40} />
                         </a>
                     </div>
-                </div>
+                </animated.div>
             </div>
         </>
     );
